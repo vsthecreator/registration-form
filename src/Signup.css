@@ -1,0 +1,62 @@
+.sign-up-container{
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #08c5f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.signup-card{
+
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-card h1{
+    margin-bottom: 20px;
+    color: #08c5f4;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+/* .signup-card h1:hover {
+    text-shadow: 2px 2px 4px rgba(91, 27, 9, 0.3);
+} */
+.signup-card form input{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+
+}
+
+.signup-card form button{
+    width: 100%;
+    padding: 10px;
+    background-color: #08c5f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.signup-card input {
+    /* Apply a border and padding to the input boxes */
+    border: 1px solid #08c5f4;
+    padding: 8px;
+    transition: box-shadow 0.3s ease-in-out; /* Add a transition for box-shadow */
+  }
+  
+  .signup-card input:focus {
+    /* Add projecting animation style on input focus */
+    box-shadow: 0 0 8px rgb(11, 180, 172);
+  }
